@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: url(https://img.freepik.com/vector-gratis/vector-fondo-abstracto-botanico-pastel-estetico_53876-154333.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(134, 88, 165);
+    font-family: 'Joan', serif;
+    height: 100vh;
+}
+nav{
+    background: rgb(163, 133, 218);
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color: rgb(114, 175, 211);
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: plum;
+}
+main{
+    text-align: center;
+}
+.container{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+label{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.container2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container3 label{
+    display:block;
+  
+ }
